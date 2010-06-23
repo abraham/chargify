@@ -4,14 +4,14 @@ Chargify example application
 Hello, my name is Abraham and I'm here to tell you a story. Well maybe not a
 story but once you are rolling in bling maybe you will tell a story about me.
 
-Once you have read gone through this example application you should be able to
+Once you have gone through this example code you should be able to
 integrate a PHP application with the Chargify API like a dream.
 
 
 License
 =======
 
-This example application is open sourced under the MIT license.
+This example application is open sourced under a MIT license.
 
 
 Support
