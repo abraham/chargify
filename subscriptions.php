@@ -72,7 +72,7 @@ try {
 
 
 /**
- * Delete subscription.
+ * Cancel subscription.
  */
 // Create a ChargifyProduct object in test mode.
 $customer = new ChargifyCustomer(NULL, $test);
@@ -106,7 +106,7 @@ $subscription->credit_card_attributes = $card;
 // Uses the first exising product. Replace with a product handle string.
 $subscription->product_handle = $products[0]->handle;
 
-echo '<h2>Deleting a new subscription</h2>';
+echo '<h2>Cancel a new subscription</h2>';
 try {
   // Save a new subscription.
   $new_subscription = $subscription->create();

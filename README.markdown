@@ -228,7 +228,7 @@ Create a new subscription or log/notify user of an issue.
 `$subscriptoin` will contain details of the subscription matching the id.
 
 
-#### Read a subscription
+#### Cancel a subscription
 
     $subscription = new ChargifySubscription(NULL, $test);
     
